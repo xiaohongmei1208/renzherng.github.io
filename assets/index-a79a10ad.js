@@ -1,0 +1,1 @@
+import{d as e,o as _,f as n,_ as t}from"./index-393dd0cf.js";const o=e({__name:"index",setup(a){return(s,c)=>(_(),n("div",null," 专业管理 "))}});const p=t(o,[["__scopeId","data-v-90a91f68"]]);export{p as default};

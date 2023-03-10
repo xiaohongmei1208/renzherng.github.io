@@ -1,0 +1,168 @@
+{
+  "code": 200,
+  "data": {
+    "path":"/index",
+		"name":"index",
+		"component":"../views/index.vue",
+		"redirect": "/systemManagement",
+		"meta": {
+			"title": "统一身份认证",
+			"icon": "Aim"
+		},
+    "children":[
+      {
+        "path":"/systemManagement",
+        "name":"systemManagement",
+        "component":"../views/systemManagement/index.vue",
+        "meta": {
+          "title": "系统管理",
+          "icon": "Aim"
+        },
+        "redirect": "/systemnotification",
+        "children":[
+          {
+            "path":"/systemnotification",
+            "name":"systemnotification",
+            "component":"../views/systemManagement/systemnotification/index.vue",
+            "meta": {
+              "title": "系统通知",
+              "icon": "Aim"
+            }
+          },
+          {
+            "path":"/systemStrategy",
+            "name":"systemStrategy",
+            "component":"../views/systemManagement/systemStrategy/index.vue",
+            "meta": {
+              "title": "系统策略",
+              "icon": "Aim"
+            },
+            "redirect": "/LoginPolicy",
+            "children":[
+              {
+                "path":"/LoginPolicy",
+                "name":"LoginPolicy",
+                "component":"../views/systemManagement/systemStrategy/LoginPolicy/index.vue",
+                "meta": {
+                  "title": "登陆策略",
+                  "icon": "Aim"
+                }
+              },
+              {
+                "path":"/passwordPolicy",
+                "name":"passwordPolicy",
+                "component":"../views/systemManagement/systemStrategy/passwordPolicy/index.vue",
+                "meta": {
+                  "title": "密码策略",
+                  "icon": "Aim"
+                }
+              }
+            ]
+          },
+          {
+            "path":"/LICENSE",
+            "name":"LICENSE",
+            "component":"../views/systemManagement/LICENSE/index.vue",
+            "meta": {
+              "title": "LICENSE授权",
+              "icon": "Aim"
+            }
+          }
+        ]
+      },
+      {
+        "path":"/basicdata",
+        "name":"basicdata",
+        "component":"../views/basicdata/index.vue",
+        "meta": {
+          "title": "基础管理",
+          "icon": "Aim"
+        },
+        "redirect": "/classmanagement",
+        "children":[
+          {
+            "path":"/classmanagement",
+            "name":"classmanagement",
+            "component":"../views/basicdata/classmanagement/index.vue",
+            "meta": {
+              "title": "班级管理",
+              "icon": "Aim"
+            }
+          },
+          {
+            "path":"/schoolcalendar",
+            "name":"schoolcalendar",
+            "component":"../views/basicdata/schoolcalendar/index.vue",
+            "meta": {
+              "title": "校历管理",
+              "icon": "Aim"
+            }
+          },
+          {
+            "path":"/tablemanagement",
+            "name":"tablemanagement",
+            "component":"../views/basicdata/tablemanagement/index.vue",
+            "meta": {
+              "title": "码表管理",
+              "icon": "Aim"
+            }
+          },
+          {
+            "path":"/organizationmanagement",
+            "name":"organizationmanagement",
+            "component":"../views/basicdata/organizationmanagement/index.vue",
+            "meta": {
+              "title": "组织机构管理",
+              "icon": "Aim"
+            }
+          },
+          {
+            "path":"/professionalmanagement",
+            "name":"professionalmanagement",
+            "component":"../views/basicdata/professionalmanagement/index.vue",
+            "meta": {
+              "title": "专业管理",
+              "icon": "Aim"
+            }
+          },
+          {
+            "path":"/postmanagement",
+            "name":"postmanagement",
+            "component":"../views/basicdata/postmanagement/index.vue",
+            "meta": {
+              "title": "岗位管理",
+              "icon": "Aim"
+            }
+          }
+        ]
+      },
+      {
+        "path":"/usermanagement",
+        "name":"usermanagement",
+        "component":"../views/usermanagement/index.vue",
+        "meta": {
+          "title": "人员管理",
+          "icon": "Aim"
+        }
+      },
+      {
+        "path":"/Application_management",
+        "name":"Application_management",
+        "component":"../views/Application_management/index.vue",
+        "meta": {
+          "title": "应用管理",
+          "icon": "Aim"
+        }
+      },
+      {
+        "path":"/AuthorityManagement",
+        "name":"AuthorityManagement",
+        "component":"../views/AuthorityManagement/index.vue",
+        "meta": {
+          "title": "权限管理",
+          "icon": "Aim"
+        }
+      }
+    ]
+  }
+}

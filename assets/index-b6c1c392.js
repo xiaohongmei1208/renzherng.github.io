@@ -1,0 +1,1 @@
+import{d as e,o as _,f as n,_ as t}from"./index-393dd0cf.js";const o=e({__name:"index",setup(d){return(s,a)=>(_(),n("div",null," 码表管理 "))}});const p=t(o,[["__scopeId","data-v-6d3d33b6"]]);export{p as default};

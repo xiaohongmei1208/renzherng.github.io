@@ -1,0 +1,1 @@
+import{d as e,o as _,f as n,_ as t}from"./index-393dd0cf.js";const o=e({__name:"index",setup(s){return(a,c)=>(_(),n("div",null," 组织机构 "))}});const p=t(o,[["__scopeId","data-v-06599eb8"]]);export{p as default};

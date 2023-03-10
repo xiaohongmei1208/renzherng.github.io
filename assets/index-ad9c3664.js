@@ -1,0 +1,1 @@
+import{d as e,o as _,f as n,_ as t}from"./index-393dd0cf.js";const o=e({__name:"index",setup(c){return(s,a)=>(_(),n("div",null," 班级管理 "))}});const p=t(o,[["__scopeId","data-v-9e0c0b90"]]);export{p as default};

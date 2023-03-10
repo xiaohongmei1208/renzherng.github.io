@@ -1,0 +1,1 @@
+/* empty css             *//* empty css               */import{_ as t,o as c,f as s,g as a,w as o,h as n,S as r}from"./index-393dd0cf.js";const _={};function l(d,f){const e=r;return c(),s("div",null,[a(e,{class:"ml-2",type:"success"},{default:o(()=>[n("LICENSE")]),_:1})])}const u=t(_,[["render",l]]);export{u as default};

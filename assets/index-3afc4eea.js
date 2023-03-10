@@ -1,0 +1,1 @@
+/* empty css             *//* empty css               */import{_ as s,o as c,f as n,g as e,w as r,h as a,S as _,q as l}from"./index-393dd0cf.js";const i={};function m(p,d){const t=_,o=l("router-view");return c(),n("div",null,[e(t,{class:"ml-2",type:"success"},{default:r(()=>[a("系统策略")]),_:1}),e(o)])}const v=s(i,[["render",m]]);export{v as default};
